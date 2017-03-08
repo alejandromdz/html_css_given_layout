@@ -1,16 +1,29 @@
 *{
     box-sizing: border-box;
     font-family: sans-serif;
+     
 }
+html{
+    height: 100%;
+    }
 body{
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
+    height: 100%
 }
 header{
+    padding:0;
     width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;  
+    height: 30%;
+    overflow: hidden;
     border:dashed blue 1px;
-    padding:30px;
+}
+nav h1{
+    font-size: 1em;
 }
 nav{
     display:flex;
@@ -21,23 +34,30 @@ aside
 {
     width:20%;
     padding:10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around
 }
 section
 {
     width:40%;
     padding:10px;
+    height: 70%;
+    overflow: hidden
 }
 footer{
     width:100%;
-     font-size: 0.9em;
+    font-size: 0.9em;
     color:#777;
+    height: 200px;
+    border:dashed blue 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
 
 }
 a { 
+    display: flex;
+    align-items: center;
     color: inherit; 
     text-decoration: inherit;
-    } 
+} 
 
