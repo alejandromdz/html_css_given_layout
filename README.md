@@ -2,7 +2,7 @@
 
 Given Layout
 
-[logo]: layout.png "Given Layout"
+[logo]: https://raw.githubusercontent.com/alejandromdz/html_css_given_layout/master/layout.png "Given Layout"
 
 The two content elements and side element must be next to each other
 * These three elements must be vertically aligned
