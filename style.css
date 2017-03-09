@@ -10,7 +10,7 @@ body{
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    height: 100%
+    height: calc(100% - 220px)
 }
 header{
     padding:0;
